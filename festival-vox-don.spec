@@ -6,6 +6,7 @@ Release:	3
 License:	distributable
 Group:		Applications/Sound
 Source0:	http://www.cstr.ed.ac.uk/download/festival/1.4.2/festvox_don.tar.gz
+# Source0-md5:	90442079e34a3a694077f8715d15fbdf
 Requires:	festival-lex-OALD
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
