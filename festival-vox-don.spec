@@ -2,7 +2,7 @@ Summary:	British English male voice 'Donovan'
 Summary(pl):	Brytyjska odmiana jêzyka angielskiego - g³os mêski 'Donovan'
 Name:		festival-vox-don
 Version:	0.1
-Release:	1
+Release:	2
 License:	Distributable
 Group:		Applications/Sound
 Source0:	http://www.cstr.ed.ac.uk/download/festival/1.4.2/festvox_don.tar.gz
@@ -10,12 +10,21 @@ Requires:	festival-lex-OALD
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+This package contains data for British English male voice 'Donovan'.
+This voice uses a very small and efficient pulse-excited LPC diphone
+synthesis method. It was originally written by Steve Isard. The front
+end uses the same British English lexicon, intonation and duration
+methods as rab_diphone.
 
+%description -l pl
+G³os mêski "Donovan" dla brytyjskiej odmiany jêzyka angielskiego.
+Ten g³os u¿ywa ma³ej i wydajnej, wzbudzanej impulsami dwug³oskowej
+metody syntezy LPC. Oryginalnie by³ stworzony przez Steve'a Isarda.
+Frontend u¿ywa tego samego brytyjskiego leksykonu, metod intonacji i
+czasów, co rab_diphone.
 
 %prep
 %setup -q -c %{name}-%{version}
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
