@@ -2,7 +2,7 @@ Summary:	British English male voice 'Donovan'
 Summary(pl):	Brytyjska odmiana jêzyka angielskiego - g³os mêski 'Donovan'
 Name:		festival-vox-don
 Version:	0.1
-Release:	3
+Release:	4
 License:	distributable
 Group:		Applications/Sound
 Source0:	http://www.cstr.ed.ac.uk/download/festival/1.4.2/festvox_don.tar.gz
