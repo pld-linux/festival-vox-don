@@ -26,7 +26,7 @@ Frontend u¿ywa tego samego brytyjskiego leksykonu, metod intonacji i
 czasów, co rab_diphone.
 
 %prep
-%setup -q -c %{name}-%{version}
+%setup -q -c
 
 %install
 rm -rf $RPM_BUILD_ROOT
