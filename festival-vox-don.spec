@@ -1,5 +1,5 @@
 Summary:	British English male voice 'Donovan'
-Summary(pl.UTF-8):   Brytyjska odmiana języka angielskiego - głos męski 'Donovan'
+Summary(pl.UTF-8):	Brytyjska odmiana języka angielskiego - głos męski 'Donovan'
 Name:		festival-vox-don
 Version:	0.1
 Release:	4
