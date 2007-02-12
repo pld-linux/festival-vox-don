@@ -1,5 +1,5 @@
 Summary:	British English male voice 'Donovan'
-Summary(pl):	Brytyjska odmiana jêzyka angielskiego - g³os mêski 'Donovan'
+Summary(pl.UTF-8):   Brytyjska odmiana jÄ™zyka angielskiego - gÅ‚os mÄ™ski 'Donovan'
 Name:		festival-vox-don
 Version:	0.1
 Release:	4
@@ -18,12 +18,12 @@ synthesis method. It was originally written by Steve Isard. The front
 end uses the same British English lexicon, intonation and duration
 methods as rab_diphone.
 
-%description -l pl
-G³os mêski "Donovan" dla brytyjskiej odmiany jêzyka angielskiego.
-Ten g³os u¿ywa ma³ej i wydajnej, wzbudzanej impulsami dwug³oskowej
-metody syntezy LPC. Oryginalnie by³ stworzony przez Steve'a Isarda.
-Frontend u¿ywa tego samego brytyjskiego leksykonu, metod intonacji i
-czasów, co rab_diphone.
+%description -l pl.UTF-8
+GÅ‚os mÄ™ski "Donovan" dla brytyjskiej odmiany jÄ™zyka angielskiego.
+Ten gÅ‚os uÅ¼ywa maÅ‚ej i wydajnej, wzbudzanej impulsami dwugÅ‚oskowej
+metody syntezy LPC. Oryginalnie byÅ‚ stworzony przez Steve'a Isarda.
+Frontend uÅ¼ywa tego samego brytyjskiego leksykonu, metod intonacji i
+czasÃ³w, co rab_diphone.
 
 %prep
 %setup -q -c
